@@ -8,7 +8,7 @@ btn.addEventListener('click',()=> {
     let b = Math.floor(Math.random()*255)+1;
     head.innerText=`rgb(${r},${g},${b})`;
     //bd.bgColor=`rgb(${r},${g},${b})`;
-    //this hardcode's the HTML (in-line)
+    //this hardcodes the HTML (in-line)
     bd.style.backgroundColor=`rgb(${r},${g},${b})`;
     //well apparently, so does this :)
 })

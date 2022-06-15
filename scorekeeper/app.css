@@ -1,0 +1,49 @@
+.mainn{
+    margin: auto;
+    margin-top: 100px;
+    width: 400px;
+}
+
+h5{
+    font-weight: bold;
+}
+
+img{
+    width: 400px;
+    height: 200px;
+}
+
+.row.border.one{
+    font-weight: bold;
+    padding: 3px;
+}
+
+.row.border.two{
+    padding: 5px;
+}
+
+label{
+    font-weight: bold;
+}
+
+h7{
+    font-size: small;
+}
+
+h3{
+    font-size: large;
+}
+
+.players{
+    padding: 4px 0px 6px 0px;
+}
+
+#sel{
+    padding: 0px 4px 0px 2px;
+    border-color: #62c0ff;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.btn :hover{
+    cursor: pointer;
+}

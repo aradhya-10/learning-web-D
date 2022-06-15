@@ -13,7 +13,6 @@ rounds.addEventListener('change', function(e){
 
 score.addEventListener('click', function(e){
     const x = e.target.id[2];
-    display.innerText = `${score1} to ${score2}`;
     console.log(`Clicked ${x}`);
     inc(x);
 })
@@ -54,7 +53,7 @@ function enable(x=3){
     score1=0;
     score2=0;
     rounds.value = x;
-    display.innerHTML = `<span class='score1'>0</span> to <span class='score2'>0</span>`;
+    display.innerText = `${score1} to ${score2}`;
     button[0].classList.remove(`disabled`);
     button[1].classList.remove(`disabled`);
     f=1;

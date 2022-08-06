@@ -1,0 +1,1 @@
+This generts random color.

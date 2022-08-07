@@ -1,1 +1,1 @@
-This generts random color.
+This generates random color.
